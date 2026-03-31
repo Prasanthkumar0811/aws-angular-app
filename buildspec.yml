@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - ng build --configuration=production
+      - ls dist/aws-angular/
 artifacts:
   base-directory: dist/aws-angular/browser
   files:
